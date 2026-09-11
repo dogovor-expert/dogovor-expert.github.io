@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ал — разработчик Dogovor.expert: онлайн-конструктор юридических документов с УКЭП</title>
+<meta name="description" content="Личная страница разработчика Dogovor.expert — сервиса юридических документов: 369+ шаблонов, подписание КЭП в браузере, OCR и 20+ правовых калькуляторов.">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Ал — разработчик Dogovor.expert">
+<meta property="og:description" content="Онлайн-конструктор юридических документов с УКЭП в браузере, OCR и правовыми калькуляторами.">
+<meta property="og:image" content="assets/home.png">
+<meta property="og:url" content="https://alikmazaev005.github.io">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%232563eb'/%3E%3Ctext x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='Georgia'%3EД%3C/text%3E%3C/svg%3E">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Ал",
+  "url": "https://alikmazaev005.github.io",
+  "sameAs": [
+    "https://github.com/alikmazaev005",
+    "https://dogovor.expert"
+  ],
+  "jobTitle": "Full-stack разработчик",
+  "worksFor": { "@type": "Organization", "name": "Dogovor.expert", "url": "https://dogovor.expert" }
+}
+</script>
+<style>
+  :root{
+    --brand:#2563eb; --brand-2:#1d4ed8; --accent:#7c3aed;
+    --bg:#f8fafc; --card:#ffffff; --text:#0f172a; --muted:#64748b;
+    --border:#e2e8f0; --shadow:0 10px 30px rgba(2,6,23,.08);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0b1120; --card:#111a2e; --text:#e2e8f0; --muted:#94a3b8; --border:#1e293b; --shadow:0 10px 30px rgba(0,0,0,.5); }
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+  .wrap{max-width:1060px;margin:0 auto;padding:0 24px}
+  header.hero{padding:88px 0 56px;text-align:center;background:
+    radial-gradient(60% 80% at 50% 0%, rgba(37,99,235,.14), transparent 70%),
+    radial-gradient(40% 60% at 80% 10%, rgba(124,58,237,.10), transparent 70%);}
+  .badge{display:inline-block;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--brand);background:rgba(37,99,235,.1);border:1px solid rgba(37,99,235,.25);border-radius:999px;padding:6px 14px;margin-bottom:22px}
+  h1{font-size:clamp(30px,5vw,46px);line-height:1.15;letter-spacing:-.02em}
+  h1 .grad{background:linear-gradient(90deg,var(--brand),var(--accent));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .sub{color:var(--muted);font-size:clamp(16px,2.4vw,19px);max-width:640px;margin:18px auto 30px}
+  .cta{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+  .btn{display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:15px;text-decoration:none;border-radius:12px;padding:13px 22px;transition:transform .15s ease, box-shadow .15s ease}
+  .btn:hover{transform:translateY(-2px)}
+  .btn-primary{background:linear-gradient(90deg,var(--brand),var(--brand-2));color:#fff;box-shadow:0 8px 22px rgba(37,99,235,.35)}
+  .btn-ghost{color:var(--text);border:1px solid var(--border);background:var(--card)}
+  .shot{margin:64px auto 0;max-width:920px;border-radius:16px;overflow:hidden;border:1px solid var(--border);box-shadow:var(--shadow)}
+  .shot img{display:block;width:100%}
+  section{padding:72px 0 8px}
+  h2{font-size:clamp(22px,3.4vw,30px);letter-spacing:-.01em;margin-bottom:8px}
+  .lead{color:var(--muted);margin-bottom:34px;max-width:620px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:24px;box-shadow:var(--shadow)}
+  .card .ico{font-size:26px;line-height:1;margin-bottom:14px;display:block}
+  .card h3{font-size:17px;margin-bottom:6px}
+  .card p{font-size:14.5px;color:var(--muted)}
+  .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+  .chip{font-size:13.5px;font-weight:600;color:var(--muted);border:1px solid var(--border);background:var(--card);border-radius:999px;padding:7px 14px}
+  .product{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:center}
+  @media(max-width:820px){.product{grid-template-columns:1fr}}
+  .product .shot{margin:0;max-width:none}
+  ul.feat{list-style:none;margin:18px 0 26px}
+  ul.feat li{padding:7px 0 7px 30px;position:relative;color:var(--text);font-size:15.5px}
+  ul.feat li::before{content:"✓";position:absolute;left:0;top:7px;width:20px;height:20px;border-radius:6px;background:rgba(37,99,235,.12);color:var(--brand);font-weight:800;font-size:13px;display:flex;align-items:center;justify-content:center}
+  footer{margin-top:88px;padding:34px 0 44px;border-top:1px solid var(--border);text-align:center;color:var(--muted);font-size:14px}
+  footer a{color:var(--brand);text-decoration:none;font-weight:600}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="badge">Full-stack разработчик</span>
+    <h1>Привет, я&nbsp;Ал.<br>Пишу <span class="grad">Dogovor.expert</span></h1>
+    <p class="sub">Онлайн-сервис, где договор, иск или жалобу можно собрать за&nbsp;5&nbsp;минут, проверить алгоритмом-юристом, подписать квалифицированной ЭП прямо в&nbsp;браузере и&nbsp;отправить контрагенту.</p>
+    <div class="cta">
+      <a class="btn btn-primary" href="https://dogovor.expert">🌐 Открыть сервис</a>
+      <a class="btn btn-ghost" href="https://github.com/alikmazaev005/dogovor-expert-showcase">📦 Витрина проекта на GitHub</a>
+    </div>
+    <div class="shot"><img src="assets/home.png" alt="Главная страница Dogovor.expert" loading="lazy"></div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap product">
+    <div>
+      <h2>Что умеет сервис</h2>
+      <ul class="feat">
+        <li><b>369+ шаблонов</b> документов с конструктором и live-предпросмотром</li>
+        <li><b>УКЭП в браузере</b>: PAdES, доверенные цепочки по TSL Минцифры, CRL/OCSP, метки времени TSA</li>
+        <li><b>20+ калькуляторов</b>: госпошлины НК&nbsp;РФ, пени ст.&nbsp;395&nbsp;ГК, отпускные по&nbsp;ПП&nbsp;№540, алименты по&nbsp;ПМ&nbsp;регионов, таможня по курсу ЦБ, ОСАГО с КБМ</li>
+        <li><b>OCR и конвертеры</b>: текст с фото, DOCX↔PDF, merge/split</li>
+        <li><b>Приватность</b>: zero-knowledge шифрование, 152-ФЗ, аудит-логи</li>
+      </ul>
+      <a class="btn btn-ghost" href="https://dogovor.expert/templates">Смотреть библиотеку шаблонов →</a>
+    </div>
+    <div class="shot"><img src="assets/builder.png" alt="Конструктор документов" loading="lazy"></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Правовые калькуляторы</h2>
+    <p class="lead">Каждый — со ссылками на актуальные НПА, живыми данными (курс ЦБ, ПМ регионов, производственный календарь с переносами ПП&nbsp;РФ) и сохранением результата в документы.</p>
+    <div class="shot"><img src="assets/utils.png" alt="Калькуляторы и валидаторы реквизитов" loading="lazy"></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Стек и инженерия</h2>
+    <p class="lead">Продуктив-грейд: строгая типизация, тесты на правовую логику, безопасность по умолчанию.</p>
+    <div class="chips">
+      <span class="chip">Next.js 15 · RSC</span><span class="chip">React 19</span><span class="chip">TypeScript strict</span>
+      <span class="chip">Supabase · RLS</span><span class="chip">Tailwind CSS</span><span class="chip">pdf-lib · pkijs</span>
+      <span class="chip">Vitest · 468 тестов</span><span class="chip">Playwright e2e</span><span class="chip">CSP + CSRF + Zod</span>
+      <span class="chip">Upstash rate-limit</span><span class="chip">ЮKassa</span><span class="chip">Vercel</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>© 2024–2026 · <a href="https://dogovor.expert">dogovor.expert</a> · <a href="https://github.com/alikmazaev005">github.com/alikmazaev005</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
